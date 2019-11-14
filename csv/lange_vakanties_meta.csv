@@ -1,0 +1,315 @@
+﻿"TableInfos"
+"ID";"Title";"ShortTitle";"Identifier";"Summary";"Modified";"ReasonDelivery";"ExplanatoryText";"Language";"Catalog";"Frequency";"Period";"ShortDescription";"Description";"DefaultPresentation";"DefaultSelection";"GraphTypes";"OutputStatus";"Source";"MetaDataModified";"SearchPriority"
+"0";"Lange vakanties buitenland; organisatie en vervoer, 2002-2016  ";"Lange vakanties;vervoerswijze, 2002-2016";"71088ned";"Lange vakanties buitenland.
+Vervoerswijze naar vakantiekenmerken.";"2017-05-01T06:30:00";"Stopgezet";"";"nl";"CBS";"Stopgezet";"2002 - 2016.";"
+In deze publicatie zijn gegevens van lange (4 of meer overnachtingen)buitenlandse vakanties over de  vervoermiddelen en organisatievorm naar vakantiekenmerken opgenomen.
+
+Gegevens beschikbaar van 2002 tot en met 2016.
+
+Status van de cijfers
+De cijfers zijn definitief
+
+Wijzigingen per 23 juli 2019: 
+Geen, deze tabel is stopgezet.
+
+Wanneer komen er nieuwe cijfers?
+Niet meer van toepassing.
+";"INHOUDSOPGAVE
+
+1. Toelichting
+2. Definities en verklaring van symbolen
+3. Koppelingen naar relevante tabellen en artikelen
+4. Bronnen en methoden
+5. Meer informatie
+
+1. TOELICHTING
+
+In deze publicatie zijn gegevens van lange (4 of meer overnachtingen)buitenlandse vakanties over de  vervoermiddelen en organisatievorm naar vakantiekenmerken opgenomen.
+
+Gegevens beschikbaar van 2002 tot en met 2016.
+
+Status van de cijfers
+De cijfers zijn definitief
+
+Wijzigingen per 23 juli 2019: 
+Geen, deze tabel is stopgezet.
+
+Wanneer komen er nieuwe cijfers?
+Niet meer van toepassing.
+
+2. DEFINITIES EN VERKLARING VAN SYMBOLEN
+
+Definities
+
+Vakantie: een verblijf buiten de eigen woning voor ontspanning of plezier. 
+Het gaat hierbij zowel om binnen- als buitenlandse vakanties. Ook het logeren bij familie, vrienden of kennissen in het buitenland valt onder het begrip vakantie. Een verblijf bij familie, vrienden of kennissen in Nederland telt echter niet mee, tenzij de bewoners de hele tijd of de meeste dagen afwezig waren.
+
+Vakantieganger: een persoon die een lange of korte vakantie doorbrengt. 
+Elke vakantie betekent een vakantieganger.
+
+Verklaring van symbolen:
+
+niets (blanco)	: het cijfer kan op logische gronden niet voorkomen
+. 		: het cijfer is onbekend, onvoldoende betrouwbaar of geheim
+*		: voorlopige cijfers
+**		: nader voorlopige cijfers
+
+3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN
+
+Meer tabellen over het vakantie-onderzoek vindt u bij het StatLine-thema <a href='https://opendata.cbs.nl/#/CBS/nl/navigatieScherm/thema?themaNr=50430'>Vakanties</a>.
+
+4. BRONNEN EN METHODEN
+
+Een beschrijving van het onderzoek is te vinden bij de korte onderzoeksbeschrijving van het <a href='https://www.cbs.nl/nl-NL/menu/themas/vrije-tijd-cultuur/methoden/dataverzameling/korte-onderzoeksbeschrijvingen/continu-vakantie-onderzoek.htm'>Continu Vakantie Onderzoek</a>.
+
+5. MEER INFORMATIE
+
+<a href='https://www.cbs.nl/nl-nl/over-ons/contact/infoservice'>Infoservice</a>
+
+Copyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen 
+Verveelvoudiging is toegestaan, mits CBS als bron wordt vermeld.
+";"graphType=table";"$filter=((Vakantiekenmerken eq ' 10')) and ((Perioden eq '2002JJ00') or (Perioden eq '2003JJ00') or (Perioden eq '2004JJ00') or (Perioden eq '2005JJ00') or (Perioden eq '2006JJ00') or (Perioden eq '2007JJ00') or (Perioden eq '2008JJ00') or (Perioden eq '2009JJ00') or (Perioden eq '2010JJ00') or (Perioden eq '2011JJ00') or (Perioden eq '2012JJ00') or (Perioden eq '2013JJ00') or (Perioden eq '2014JJ00') or (Perioden eq '2015JJ00') or (Perioden eq '2016JJ00'))&$select=Vakantiekenmerken, Perioden, Totaal_1, Auto_2, TreinAutoslaaptrein_3, Touringcar_4, Vliegtuig_5, OverigeVervoermiddelen_6, GeorganiseerdeReisPerAuto_7, GeorganiseerdeReisPerTouringcar_8, GeorganiseerdeReisPerVliegtuig_9, GeorganiseerdeReisMetOverigVervoer_10, NietGeorganiseerdeReizen_11&k=Topics&t=Vakantiekenmerken&r=Perioden";"Table,Bar,Line";"Gediscontinueerd";"CBS.";"2019-07-23T02:00:00";"1"
+"DataProperties"
+ID;Position;ParentID;Type;Key;Title;Description;ReleasePolicy;Datatype;Unit;Decimals;Default
+"0";"0";;"Dimension";"Vakantiekenmerken";"Vakantiekenmerken";;;;;;
+"1";"1";;"TimeDimension";"Perioden";"Perioden";;"false";;;;
+"2";"2";;"Topic";"Totaal_1";"Totaal";;;"Long";;"0";"Zero"
+"3";;;"TopicGroup";"";"Meest gebruikte vervoermiddel";;;;;;
+"4";"3";"3";"Topic";"Auto_2";"Auto";"Het betreft hier het vervoermiddel waarmee op de heenreis de langste afstand werd afgelegd.";;"Long";"x 1 000";"0";"Zero"
+"5";"4";"3";"Topic";"TreinAutoslaaptrein_3";"Trein, autoslaaptrein";"Het betreft hier het vervoermiddel waarmee op de heenreis de langste afstand werd afgelegd.";;"Long";"x 1 000";"0";"Zero"
+"6";"5";"3";"Topic";"Touringcar_4";"Touringcar";"Het betreft hier het vervoermiddel waarmee op de heenreis de langste afstand werd afgelegd.";;"Long";"x 1 000";"0";"Zero"
+"7";"6";"3";"Topic";"Vliegtuig_5";"Vliegtuig";"Het betreft hier het vervoermiddel waarmee op de heenreis de langste afstand werd afgelegd.";;"Long";"x 1 000";"0";"Zero"
+"8";"7";"3";"Topic";"OverigeVervoermiddelen_6";"Overige vervoermiddelen";"Bus (streekvervoer), tram, metro motor, scooter, bromfiets, te voet (geen vervoermiddel), anders.
+Het betreft hier het vervoermiddel waarmee op de heenreis de langste afstand werd afgelegd.";;"Long";"x 1 000";"0";"Zero"
+"9";;;"TopicGroup";"";"Organisatievorm naar vervoerswijze";"Bij vakanties is er sprake van een georganiseerde reis als logies en/of vervoer geboekt zijn bij een reisbureau, ANWB-kantoor, bank, warenhuis, postkantoor, VVV-kantoor, vakantieboekingscentrale van de VVV of een boekingscentrale van een hotel- of bungalowketen dan wel rechtstreeks bij een reisorganisatie (vervoersmaatschappij, accommodatieverschaffer of andere bemiddelende instantie).
+Tot de niet-georganiseerde reizen behoren vakanties waarbij het logies rechtstreeks bij de eigenaar of beheerder werd geboekt, men zonder iets te reserveren op pad ging dan wel op een vaste seizoen- of jaarplaats of in een eigen recreatief onderkomen verbleef.";;;;;
+"10";"8";"9";"Topic";"GeorganiseerdeReisPerAuto_7";"Georganiseerde reis per auto";;;"Long";"x 1 000";"0";"Zero"
+"11";"9";"9";"Topic";"GeorganiseerdeReisPerTouringcar_8";"Georganiseerde reis per touringcar";;;"Long";"x 1 000";"0";"Zero"
+"12";"10";"9";"Topic";"GeorganiseerdeReisPerVliegtuig_9";"Georganiseerde reis per vliegtuig";;;"Long";"x 1 000";"0";"Zero"
+"13";"11";"9";"Topic";"GeorganiseerdeReisMetOverigVervoer_10";"Georganiseerde reis met overig vervoer";;;"Long";"x 1 000";"0";"Zero"
+"14";"12";"9";"Topic";"NietGeorganiseerdeReizen_11";"Niet-georganiseerde reizen";;;"Long";"x 1 000";"0";"Zero"
+"Vakantiekenmerken"
+Key;Title;Description
+"111";"België";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"112";"Luxemburg";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"113";"Frankrijk";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"114";"Spanje";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"115";"Portugal";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"116";"Oostenrijk";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"117";"Zwitserland";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"118";"Groot-Brittanië";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"119";"Noorwegen, Zweden, Finland";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"120";"Denemarken";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"121";"Duitsland";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"122";"Italië";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"123";"Griekenland";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"124";"Hongarije";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"125";"Tsjechië";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"126";"Turkije";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht.
+Incl. Aziatisch deel."
+"127";"Egypte";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"128";"Verre Oosten";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"129";"Verenigde Staten";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"130";"Caribisch gebied";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+"131";"Overige landen";"Als bestemming wordt gerekend het land waar men de meeste
+overnachtingen heeft doorgebracht."
+" 10";"Totaal";
+" 40";"Totaal seizoenrecreatieve logiesvormen";"Tot seizoenrecreatieve logiesvormen wordt een aantal logiesvormen
+gerekend die in eigendom zijn, zoals:
+- Zomerhuisje, vakantiebungalow of tweede woning;
+- Tent, bungalowtent;
+- Stacaravan, toercaravan, vouwcaravan, vouwwagen;
+- Kajuitboot waarin overnacht kan worden;
+- Volkstuinhuisje waarin overnacht kan worden."
+" 42";"SL: zomerhuisje, bungalow, tweede woning";"Seizoenrecreatieve logiesvorm: zomerhuisje, vakantiebungalow,
+tweede woning."
+" 43";"SL: caravan, vouwwagen";"Seizoenrecreatieve logiesvorm: stacaravan, tourcaravan, vouwcaravan,
+vouwwagen."
+" 44";"SL: boot";"Seizoenrecreatieve logiesvorm: kajuitboot waarin overnacht kan worden."
+" 45";"Overige seizoenrecreatieve logiesvormen";"Onder andere tent, bungalowtent, volkstuinhuisje
+waarin overnacht kan worden."
+" 41";"Totaal toeristische logiesvormen";"Tot toeristische logiesvormen wordt een aantal logiesvormen
+gerekend die niet in eigendom zijn, zoals:
+- Woning van familie, vrienden of kennissen;
+- Woning van particulier;
+- Hotel, motel;
+- Pension, bed & breakfast;
+- Appartement;
+- Zomerhuisje, vakantiebungalow;
+- Tent, bungalowtent;
+- Stacaravan, tourcaravan, vouwwagen;
+- Camper;
+- Cruiseschip, zeilboot, motorjacht;
+- Jeugdherberg of andere groepsaccommodatie."
+" 46";"TL: woning familie, vrienden, kennissen";"Toeristische logiesvorm: woning van familie, vrienden of kennissen.
+Het logeren bij familie, vrienden of kennissen in het buitenland valt
+onder het begrip vakantie.
+Een verblijf bij familie, vrienden of kennissen in Nederland telt echter
+niet mee, tenzij de bewoners de hele tijd of de meeste dagen afwezig
+waren."
+" 47";"TL: woning van andere particulier";"Toeristische logiesvorm: Woning van een particulier, anders dan
+familie, vrienden of kennissen."
+" 48";"TL: hotel";"Toeristische logiesvorm: hotel, motel."
+" 49";"TL: pension, bed & breakfast";"Toeristische logiesvorm: pension, bed & breakfast"
+" 50";"TL: appartement";"Toeristische logiesvorm: appartement."
+" 51";"TL: zomerhuisje, vakantiebungalow";"Toeristische logiesvorm: zomerhuisje, vakantiebungalow."
+" 52";"TL: tent, bungalowtent";"Toeristische logiesvorm: tent, bungalowtent."
+" 53";"TL: caravan, vouwwagen";"Toeristische logiesvorm: stacaravan, tourcaravan, vouwcaravan,
+vouwwagen."
+" 54";"TL: camper";"Toeristische logiesvorm: camper."
+" 55";"TL: boot";"Toeristische logiesvorm: cruiseschip, zeilboot, motorjacht."
+" 56";"TL: jeugdherberg/groepsaccommodatie";"Toeristische logiesvorm: jeugdherberg of andere groepsaccommodatie."
+" 57";"Overige toeristische logiesvormen";"Overige toeristische logiesvormen zoals:
+- Trekkershut;
+- Volkstuinhuisje."
+" 87";"Herfstperiode";"Een vakantiejaar is niet gelijk aan een kalenderjaar, maar loopt van
+1 oktober in het voorgaande jaar tot en met 30 september.
+In 2002: 1 oktober-30 november 2001.
+In 2003: 1 oktober-29 november 2002.
+In 2004: 1 oktober-5 december 2003.
+In 2005: 1 oktober-3 december 2004.
+In 2006: 1 oktober-2 december 2005.
+In 2007: 1 oktober-1 december 2006.
+In 2008: 1 oktober-30 november 2007.
+In 2009: 1 oktober-5 december 2008.
+In 2010: 1 oktober-4 december 2009.
+In 2011: 1 oktober-3 december 2010 .
+In 2012: 1 oktober-2 december 2011. 
+In 2013: 1 oktober-30 november 2012.
+In 2014: 1 oktober-29 november 2013.
+In 2015: 1 oktober-28 november 2014.
+In 2016: 1 oktober-4 december 2015.
+"
+" 81";"Kerstperiode";"In 2002: 1 december 2001-18 januari 2002.
+In 2003: 30 november 2002-17 januari 2003.
+In 2004: 6 december 2003-23 januari 2004.
+In 2005: 4 december 2004-21 januari 2005.
+In 2006: 3 december 2005-20 januari 2006.
+In 2007: 2 december 2006-19 januari 2007.
+In 2008: 1 december 2007-18 januari 2008.
+In 2009: 6 december 2008-23 januari 2009 .
+In 2010: 5 december 2009-22 januari 2010 .
+In 2011: 4 december 2010-21 januari 2011.
+In 2012: 3 december 2011-20 januari 2012.
+In 2013: 1 december 2012-18 januari 2013.
+In 2014: 30 november 2013-17 januari 2014.
+In 2015: 29 november 2014-16 januari 2015.
+In 2016: 5 december 2015-22 januari 2016.
+"
+" 82";"Krokusperiode";"In 2002: 19 januari-15 maart 2002.
+In 2003: 18 januari-14 maart 2003.
+In 2004: 24 januari-19 maart 2004.
+In 2005: 22 januari-18 maart 2005.
+In 2006: 21 januari-17 maart 2006.
+In 2007: 20 januari-16 maart 2007.
+In 2008: 19 januari-14 maart 2008.
+In 2009: 24 januari-20 maart 2009.
+In 2010: 23 januari-19 maart 2010.
+In 2011: 22 januari-18 maart 2011.
+In 2012: 21 januari-16 maart 2012.
+In 2013: 19 januari-15 maart 2013
+In 2014: 18 januari-14 maart 2014.
+In 2015: 17 januari-13 maart 2015.
+In 2016: 23 januari-18 maart 2016.
+"
+" 83";"Paasperiode";"In 2002: 16 maart-26 april 2002.
+In 2003: 15 maart-25 april 2003.
+In 2004: 20 maart-30 april 2004.
+In 2005: 19 maart-29 april 2005.
+In 2006: 18 maart-28 april 2006.
+In 2007: 17 maart-27 april 2007.
+In 2008: 15 maart-25 april 2008.
+In 2009: 21 maart-1 mei 2009.
+In 2010: 20 maart-30 april 2010.
+In 2011: 19 maart-29 april 2011.
+In 2012: 17 maart-27 april 2012.
+In 2013: 16 maart-26 april 2013.
+In 2014: 15 maart-25 april 2014.
+In 2015: 14 maart-24 april 2015.
+In 2016: 19 maart-29 april 2016.
+"
+" 84";"Voorseizoen";"In 2002: 27 april-28 juni 2002.
+In 2003: 26 april-27 juni 2003.
+In 2004: 1 mei-2 juli 2004.
+In 2005: 30 april-1 juli 2005.
+In 2006: 29 april-30 juni 2006.
+In 2007: 28 april-29 juni 2007.
+In 2008: 26 april-27 juni 2008.
+In 2009: 2 mei-3 juni 2009.
+In 2010: 1 mei-2 juni 2010.
+In 2011: 30 april-1 juni 2011.
+In 2012: 28 april-29 juni 2012.
+In 2013: 27 april-28 juni 2013.
+In 2014: 26 april-27 juni 2014.
+In 2015: 25 april-26 juni 2015.
+In 2016: 30 april-1 juli 2016.
+"
+" 85";"Hoogseizoen";"In 2002: 29 juni-23 augustus 2002.
+In 2003: 28 juni-22 augustus 2003.
+In 2004: 3 juli-27 augustus 2004.
+In 2005: 2 juli-26 augustus 2005.
+In 2006: 1 juli-25 augustus 2006.
+In 2007: 30 juni-24 augustus 2007.
+In 2008: 28 juni-22 augustus 2008.
+In 2009: 4 juli-28 augustus 2009.
+In 2010: 3 juli-3 september 2010.
+In 2011: 2 juli-2 september 2011.
+In 2012: 30 juni-31 augustus 2012.
+In 2013: 29 juni-30 augustus 2013.
+In 2014: 28 juni-29 augustus 2014.
+In 2015: 27 juni-28 augustus 2015.
+In 2016: 2 juli-2 september 2016.
+"
+" 86";"Naseizoen";"In 2002: 24 augustus-30 september 2002.
+In 2003: 23 augustus-30 september 2003.
+In 2004: 28 augustus-30 september 2004.
+In 2005: 27 augustus-30 september 2005.
+In 2006: 26 augustus-30 september 2006.
+In 2007: 25 augustus-30 september 2007.
+In 2008: 23 augustus-30 september 2008.
+In 2009: 29 augustus-30 september 2009.
+In 2010: 4 september-30 september 2010.
+In 2011: 3 september-30 september 2011.
+In 2012: 1 september-30 september 2012.
+In 2013: 31 augustus-27 september 2013.
+In 2014: 30 augustus-26 september 2014.
+In 2015: 29 augustus-30 september 2015.
+In 2016: 3 september-30 september 2016.
+"
+"Perioden"
+Key;Title;Description;Status
+"2002JJ00";"2002";;"Definitief"
+"2003JJ00";"2003";;"Definitief"
+"2004JJ00";"2004";;"Definitief"
+"2005JJ00";"2005";;"Definitief"
+"2006JJ00";"2006";;"Definitief"
+"2007JJ00";"2007";;"Definitief"
+"2008JJ00";"2008";;"Definitief"
+"2009JJ00";"2009";;"Definitief"
+"2010JJ00";"2010";;"Definitief"
+"2011JJ00";"2011";;"Definitief"
+"2012JJ00";"2012";;"Definitief"
+"2013JJ00";"2013";;"Definitief"
+"2014JJ00";"2014";;"Definitief"
+"2015JJ00";"2015";;"Definitief"
+"2016JJ00";"2016";;"Definitief"
